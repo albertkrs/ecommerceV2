@@ -17,7 +17,6 @@
 
 .home .grid .grid-item {
   background-color: #fff;
-  border-radius: 0.5em;
   overflow: hidden;
   cursor: pointer;
 }
@@ -32,6 +31,7 @@
 
 .home .grid .grid-item .card-content {
   padding: 0 .5em;
+  line-height: .8em;
 }
 
 .home .grid .grid-item .action {
@@ -47,17 +47,15 @@
 }
 
 .home .grid .grid-item .action .card-btn {
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
   font-size: 1em;
-  padding: .3em .6em;
+  padding: 0.4em .6em;
   text-align: center;
-  color: #fe4343;
-  border: 2px #fe4343 solid;
-  background-color: transparent;
-  border-radius: 0.6em;
+  color: #fff;
+  border: none;
+  background-color: #fd4f4f;
   cursor: pointer;
+  text-transform: capitalize;
+  margin-bottom: 0.5em;
   letter-spacing: 0.1rem;
 }
 /*# sourceMappingURL=main.css.map */
