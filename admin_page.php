@@ -73,8 +73,8 @@ if (isset($_POST['add_product'])) {
                 ?>
                 <input type="submit" class="btn " name="add_product" value="add   Article">
                 <div class="admin-buttons">
-                    <button class="admin-btn" href="admin_page.php"> return </button>
-                    <button class="admin-btn" href="index.php"> home page </button>
+                  <a class="admin-btn" href="articles.php">return</a>
+                    <a class="admin-btn" href="index.php">home page</a>
                 </div>
             </form>
         </div>
