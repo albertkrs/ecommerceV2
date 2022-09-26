@@ -18,8 +18,8 @@
 
 .container .form-container {
   text-align: center;
-  padding: 2em;
-  background-color: bisque;
+  padding: 4em 2em;
+  background-color: #efefef;
 }
 
 .container .form-container form {
@@ -51,16 +51,17 @@
 }
 
 .container .form-container form .admin-buttons {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
 }
 
 .container .form-container form .admin-buttons .admin-btn {
+  width: 100%;
   font-size: 1em;
   padding: 0.6em;
   text-align: center;
