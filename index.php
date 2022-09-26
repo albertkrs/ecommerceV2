@@ -44,7 +44,7 @@
                       $row[description]
                     </p>
                     <div class='action'>
-                        <h1>$row[price]</h1>
+                        <h1>$row[price]$</h1>
                         <button class='card-btn'>buy Now</button>
                     </div>
                   </div>
